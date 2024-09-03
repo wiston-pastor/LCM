@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(137, 87, 184);
+    background-image: image-set(
+        url("images/bg-mobile.svg") 3x,
+        url("images/bg-desktop.svg") 1x
+    ) ;
+    background-repeat: no-repeat;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+header{
+    height: 100px;
+}
+
+.logo{
+    width: 120px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.parrafo{
+    text-align: center;
+}
+
+button{
+    width: 200px;
+    padding: 5px 20px;
+    border-radius: 15px ;
+    border: none;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mokup{
+    width: 85%;
+    margin: 0 30px;
+    
+
+}
+
+.redes{
+    background-color: white;
+    
+}
+
+
+
+@media (width <375px){
+    .mokup{
+        
+    }
+}
